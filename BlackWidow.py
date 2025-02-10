@@ -18,6 +18,9 @@ weatherAlert = weather()
 def vehiclesResponseSystem():
     if weatherAlert == "snowing":
         print ("\nThe National Weather Service has updated your alarm by 30 minutes because"
-        " of the forecast of the ", weatherAlert , " weather condition.")
+            " of the forecast of the ", weatherAlert , " weather condition.")
+
+    elif weatherAlert == "Nagasaki":
+        print ("\nYour probably gonna die because it's", weatherAlert , " 2.0")
 
 vehiclesResponseSystem()
