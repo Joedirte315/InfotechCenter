@@ -21,6 +21,26 @@ def vehiclesResponseSystem():
             " of the forecast of the ", weatherAlert , " weather condition.")
 
     elif weatherAlert == "Nagasaki":
-        print ("\nYour probably gonna die because it's", weatherAlert , " 2.0")
+        print ("\nYour probably gonna die because it's", weatherAlert , "2.0")
+
+    elif weatherAlert == "blizzard":
+        print ("\nThe National Weather Service has updated your alarm by 30 minutes because"
+            " of the forecast of the ", weatherAlert , " weather condition.")
+
+    elif weatherAlert == "icy":
+        print ("\nThe National Weather Service has updated your alarm by 30 minutes because"
+            " of the forecast of the ", weatherAlert , " weather condition.")
+
+    elif weatherAlert == "rainy":
+        print ("\nThe National Weather Service has updated your alarm by 30 minutes because"
+            " of the forecast of the ", weatherAlert , " weather condition.")
+
+    elif weatherAlert == "windy":
+        print ("\nThe National Weather Service has updated your alarm by 30 minutes because"
+            " of the forecast of the ", weatherAlert , " weather condition.")
+
+    elif weatherAlert == "sunny":
+        print ("\nThe National Weather Service has updated your alarm by 30 minutes because"
+            " of the forecast of the ", weatherAlert , " weather condition.")
 
 vehiclesResponseSystem()
