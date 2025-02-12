@@ -1,6 +1,9 @@
 # Import necessary libraries
 import sys  # Provides access to system-specific parameters and functions
 import time  # Provides functions for time-related tasks (e.g., pausing the program)
+import random
+from time import sleep
+
 
 # ANSI escape sequences for coloring the text
 RED = "\033[31m"
